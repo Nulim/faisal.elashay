@@ -18,6 +18,7 @@ namespace PlanitTechnicalAssessment.Helpers
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutInSeconds));
                 return wait.Until(drv => drv.FindElement(by));
             }
+
             return driver.FindElement(by);
         }
 
@@ -28,6 +29,7 @@ namespace PlanitTechnicalAssessment.Helpers
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutInSeconds));
                 return wait.Until(drv => (drv.FindElements(by).Count > 0) ? drv.FindElements(by) : null);
             }
+
             return driver.FindElements(by);
         }
 
@@ -38,6 +40,7 @@ namespace PlanitTechnicalAssessment.Helpers
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutInSeconds));
                 return wait.Until(drv => drv.FindElements(by).Count == 0);
             }
+
             return driver.FindElements(by).Count == 0;
         }
     }

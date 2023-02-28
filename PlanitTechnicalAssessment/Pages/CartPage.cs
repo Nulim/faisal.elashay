@@ -20,6 +20,7 @@ namespace PlanitTechnicalAssessment.Pages
             var numberOfRows = _driver?.WaitAndFindElements(By.XPath("//tbody/tr")).Count;
             var rowData = FormatTableDataIntoRowDataCollection(numberOfRows);
 
+            //Validate expected data with actual data
             Assert.AreEqual(expectedRowsData, rowData, $"The expected result was not found in the actual result. Please review the data again.");
         }
 
@@ -41,10 +42,11 @@ namespace PlanitTechnicalAssessment.Pages
                     }
                     else if (rowData.IndexOf(item) != 4) //Item position 4 is skipped as it is the remove item action element
                     {
-                        textData.Add(item.Text); //store column text
+                        textData.Add(item.Text); //store column text data
                     }
                 }
 
+                //Populate row data into rows list
                 rows.Add(textData);
             }
 
