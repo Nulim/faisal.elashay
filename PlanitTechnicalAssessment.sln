@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanitTechnicalAssessment", "PlanitTechnicalAssessment\PlanitTechnicalAssessment.csproj", "{3D8780B6-5306-403D-8F33-7D02748976FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D8780B6-5306-403D-8F33-7D02748976FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8780B6-5306-403D-8F33-7D02748976FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8780B6-5306-403D-8F33-7D02748976FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8780B6-5306-403D-8F33-7D02748976FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19E2A0DE-443E-43E7-BC89-052E3B17DBF9}
+	EndGlobalSection
+EndGlobal

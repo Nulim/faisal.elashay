@@ -1,0 +1,6 @@
+{
+  "AppSettings": {
+    "websiteUrl": "https://jupiter.cloud.planittesting.com/#/home",
+    "browserType": "Edge" //NOTE: The browser options are either Chrome, FireFox, Edge
+  }
+}
