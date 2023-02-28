@@ -9,10 +9,6 @@ Please download Visual Studios (Community Edition) via a google search or by cli
 
 Once Visual Studios is installed and the project has been cloned, please ensure the following NuGet packages are installed to ensure no compatibility issues.
 
-You can access the Nuget Package Manager by searching for it in Visual Studios (CTRL + Q).
-
-Alternatively, from the menu bar, you can select (Project -> Manage NuGet Packages...)
-
 ```bash
 coverlet.collector
 Microsoft.Extensions.Configuration
@@ -23,6 +19,10 @@ Selenium.WebDriver
 Selenium.WebDriver.ChromeDriver
 System.Configuration.ConfigurationManager
 ```
+
+You can access the Nuget Package Manager by searching for it in Visual Studios (CTRL + Q).
+
+Alternatively, from the menu bar, you can select (Project -> Manage NuGet Packages...)
 
 ## Project Structure
 There are 4 folders and a Settings file:
